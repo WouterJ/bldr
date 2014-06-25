@@ -116,7 +116,7 @@ abstract class AbstractCall implements CallInterface
     }
 
     /**
-     * {@inheritdoc}
+     * @return Task
      */
     public function getTask()
     {
